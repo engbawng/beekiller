@@ -60,7 +60,7 @@ local slider = sector.element('Slider', 'Slider', {default = {min = 1, max = 100
    print(v.Slider)
 end)
 
-local combo = sector.element('Combo', 'Combo', {options = {'bruh', 'otherbruh'}}, function(v)
+local combo = sector.element('Combo', 'Combo', {options = {'bruh', 'otheujhgfddrthyfgurbruh'}}, function(v)
    table.foreach(v.Combo, print)
 end)
 
