@@ -46,14 +46,14 @@ local button = sector.element('Button', 'Button', nil, function()
 end)
 
 local toggle = sector.element('AutoFarm', 'Toggle', false, function(v)
-farm = v.Toggle;
+print(v.Toggle)
 end)
 -- toggle:add_color({Color = Color3.fromRGB(84, 101, 255)}, nil, function(v)
 --   print(v.Color)    
 -- end)
 
 local dropdown = sector.element('Seclect Field:', 'Dropdown', {options = list}, function(v)
-   field = v
+print(v);
 end)
 
 local slider = sector.element('Slider', 'Slider', {default = {min = 1, max = 100, default = 50}}, function(v)
