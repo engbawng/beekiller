@@ -65,7 +65,7 @@ local combo = sector.element('Combo', 'Combo', {options = {'bruh', 'otherbruh'}}
 end)
 
 
-  print(v.Toggle) -- :nerd:
+
    spawn(function()
     while task.wait() do
         if farm then
